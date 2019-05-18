@@ -1,0 +1,12 @@
+{
+  "name": "@demo/now-server-reload",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "deploy": "now",
+    "start": "now dev"
+  },
+  "devDependencies": {
+    "now": "^15.2.0"
+  }
+}
