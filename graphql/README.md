@@ -1,0 +1,1 @@
+This is a demo graphql server mounted at /graphql that uses the typedefs in `schema/*.graphql` that are compield at build-time.

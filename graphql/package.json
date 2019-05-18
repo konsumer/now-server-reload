@@ -1,0 +1,17 @@
+{
+  "name": "@demo/now-server-reload-api",
+  "version": "0.0.0",
+  "scripts": {
+    "now-build": "node build.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "latest",
+    "express": "latest",
+    "graphql": "latest",
+    "lodash.merge": "latest"
+  },
+  "devDependencies": {
+    "glob": "^7.1.4",
+    "merge-graphql-schemas": "latest"
+  }
+}

@@ -2,9 +2,10 @@
   "version": 2,
   "public": true,
   "builds": [
-    { "src": "./server/index.js", "use": "@now/node" }
+    { "src": "./graphql/index.js", "use": "@now/node" },
+    { "src": "./frontend/next.config.js", "use": "@now/next" }
   ],
   "routes": [
-    { "src": "/*", "dest": "/server/index.js" }
+    { "src": "/*", "dest": "/frontend/index.js" }
   ]
 }
